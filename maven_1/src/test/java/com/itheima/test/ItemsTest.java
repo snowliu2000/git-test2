@@ -17,5 +17,6 @@ public class ItemsTest {
         ItemsService service = ac.getBean(ItemsService.class);
         Items byId = service.findById(1);
         System.out.println(byId);
+        System.out.println("gaile");
     }
 }
